@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 5</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="bootstrap.css">
+    <!---   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--================= NAVBAR =============================-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
+        <div class="container-fluid py-1">
+            <a class="navbar-brand" href="#">Wonderland</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#services">Service One</a></li>
+                            <li><a class="dropdown-item" href="#services">Service Two</a></li>
+                            <li><a class="dropdown-item" href="#services">Service Three</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--============ HEADER ======================-->
+    <header>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000" style="background-image: url(images/slide1.png);">
+
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, soluta?</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000" style="background-image: url(images/slide2.png);">
+
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, soluta?</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000" style="background-image: url(images/slide3.png);">
+
+                    <div class="carousel-caption">
+                        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, soluta?</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+
+    <!--=========== ABOUT US ======================================-->
+    <section id="about">
+        <div class="container py-4">
+            <h1 class="text-center">About Us</h1>
+            <hr class="w-25 mx-auto">
+
+            <div class="row py-2">
+                <div class="col-md-6">
+                    <img src="images/about.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>Who am I?</h2>
+                    <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium aperiam similique odit minus animi dolor accusamus magnam voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatem repellat nisi
+                        a illo exercitationem. Natus sequi quam, velit debitis iste, assumenda, accusamus et sunt id ad nisi non nostrum. Quae dolores expedita veritatis! Dolorem, voluptatibus. Doloribus natus facere, nihil, doloremque minima eligendi
+                        odio est debitis molestias dolorem in distinctio voluptas.</p>
+                    <button class="btn btn-outline-dark">View More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--=========== SERVICES ======================================-->
+    <section id="services">
+        <div class="container py-5">
+            <h1 class="text-center">Services</h1>
+            <div class="row text-center pt-2">
+                <div class="col-md-4 mb-2">
+                    <div class="card">
+                        <img src="images/about.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Services</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus fugiat perspiciatis expedita? Obcaecati illum quibusdam, odio quis quae iste.</p>
+                            <a href="# " class="btn btn-outline-dark ">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card ">
+                        <img src="images/about.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Services</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus fugiat perspiciatis expedita? Obcaecati illum quibusdam, odio quis quae iste.</p>
+                            <a href="# " class="btn btn-outline-dark ">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-2">
+                    <div class="card ">
+                        <img src="images/about.png " class="card-img-top " alt="... ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">Services</h5>
+                            <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus fugiat perspiciatis expedita? Obcaecati illum quibusdam, odio quis quae iste.</p>
+                            <a href="# " class="btn btn-outline-dark ">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--=========== Call us ======================================-->
+    <section class="bg-dark py-5 text-white">
+        <article class="text-center">
+            <h1>+91 74650000000</h1>
+            <p>For best services call us now.</p>
+            <button class="btn btn-light">Contact Now</button>
+        </article>
+    </section>
+
+    <!--=========== Gallery ======================================-->
+    <section id="gallery">
+        <div class="container py-5">
+            <h1 class="text-center">Gallery</h1>
+
+            <div class="row pt-2">
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="images/slide1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="images/slide1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="images/slide1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="images/slide1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="images/slide1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-3">
+                    <img src="images/slide1.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--=========== Register ====================-->
+    <section class="bg-dark py-5 text-white">
+        <div class="container-fluid">
+            <article class="text-center">
+                <h2>Want to join our team?</h2>
+                <p>Be a part of Wonderland.</p>
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Join Now
+                  </button>
+
+            </article>
+
+
+            <!-- Modal -->
+            <div class="modal fade text-dark" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off">
+
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!--=========== Contact form ====================-->
+    <section id="contact" class="bg-light">
+        <div class="container py-4">
+            <h1 class="text-center">Contact Us</h1>
+            <hr class="w-25 mx-auto">
+            <div class="mx-auto contact-form">
+                <form class="">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" autocomplete="off">
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Message</label>
+                        <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+
+                    </div>
+
+
+
+
+                </form>
+
+            </div>
+            <div class="w-100 text-center"> <button type="submit" class="btn btn-outline-dark">Submit</button></div>
+        </div>
+    </section>
+
+    <!--=========== Footer ====================-->
+    <footer class="bg-dark text-white m-0 py-3">
+        <p class="text-center">Copyright&copy; 2021 Alpha Creatives | All Rights Reserved.</p>
+
+    </footer>
+    <!--js-->
+
+
+</body>
+
+</html>

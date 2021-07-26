@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    margin-right: 5px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto !important;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 89.5vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-item::before {
+    background-color: rgba(0, 0, 0, 0.527);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+}
+
+.card {
+    width: 100%;
+}
+
+.contact-form {
+    max-width: 500px;
+}
