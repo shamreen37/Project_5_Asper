@@ -19,50 +19,52 @@
 
 <body>
     <!--================= NAVBAR =============================-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
-        <div class="container-fluid py-1">
-            <a class="navbar-brand" href="#">Wonderland</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-2">
+            <div class="container-fluid py-1">
+                <a class="navbar-brand" href="#">Wonderland</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#services" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Services
                 </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#services">Service One</a></li>
-                            <li><a class="dropdown-item" href="#services">Service Two</a></li>
-                            <li><a class="dropdown-item" href="#services">Service Three</a></li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#services">Service One</a></li>
+                                <li><a class="dropdown-item" href="#services">Service Two</a></li>
+                                <li><a class="dropdown-item" href="#services">Service Three</a></li>
 
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">Gallery</a>
-                    </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
 
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-light" type="submit">Search</button>
-                </form>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-light" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!--============ HEADER ======================-->
-    <header>
+        <!--============ HEADER ======================-->
+
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -70,19 +72,19 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000" style="background-image: url(images/slide1.png);">
+                <div class="carousel-item active" data-bs-interval="3500" style="background-image: url(images/slide1.png);">
 
                     <div class="carousel-caption">
                         <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, soluta?</h3>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000" style="background-image: url(images/slide2.png);">
+                <div class="carousel-item" data-bs-interval="3500" style="background-image: url(images/slide2.png);">
 
                     <div class="carousel-caption">
                         <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, soluta?</h3>
                     </div>
                 </div>
-                <div class="carousel-item" data-bs-interval="3000" style="background-image: url(images/slide3.png);">
+                <div class="carousel-item" data-bs-interval="3500" style="background-image: url(images/slide3.png);">
 
                     <div class="carousel-caption">
                         <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, soluta?</h3>
@@ -111,11 +113,10 @@
                 <div class="col-md-6">
                     <img src="images/about.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-md-6">
-                    <h2>Who am I?</h2>
-                    <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium aperiam similique odit minus animi dolor accusamus magnam voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptatem repellat nisi
-                        a illo exercitationem. Natus sequi quam, velit debitis iste, assumenda, accusamus et sunt id ad nisi non nostrum. Quae dolores expedita veritatis! Dolorem, voluptatibus. Doloribus natus facere, nihil, doloremque minima eligendi
-                        odio est debitis molestias dolorem in distinctio voluptas.</p>
+                <div class="col-md-6 d-flex align-items-center flex-wrap">
+                    <h2 class="pt-2">Who am I?</h2>
+                    <p class="pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium aperiam similique odit minus animi dolor accusamus magnam voluptate. Natus sequi quam, velit debitis iste, assumenda, accusamus et sunt id ad nisi non nostrum.
+                        Quae dolores expedita veritatis! Dolorem, voluptatibus. Doloribus natus facere, nihil, doloremque minima eligendi odio est debitis molestias dolorem in distinctio voluptas.</p>
                     <button class="btn btn-outline-dark">View More</button>
                 </div>
             </div>
