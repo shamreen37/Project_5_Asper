@@ -27,7 +27,7 @@ img {
 }
 
 .carousel-item::before {
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.349);
     position: absolute;
     top: 0;
     right: 0;
